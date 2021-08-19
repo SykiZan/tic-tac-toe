@@ -1,0 +1,14 @@
+.game-info {
+  color: #e9e3e3;
+  position: absolute;
+  left: 340px;
+  top: 20px;
+}
+
+.score {
+  margin-top: 20px;
+  display: inline-block;
+}
+.score:first-of-type {
+  margin-top: 0;
+}

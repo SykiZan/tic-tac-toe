@@ -1,0 +1,39 @@
+.game-window {
+  background-color: #545775;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 550px;
+  height: 340px;
+  position: relative;
+  border-radius: 6px;
+}
+.board--wrap {
+  background-color: #494368;
+  height: 300;
+  width: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 20px;
+  border-radius: 3px;
+}
+
+.btn {
+  font-size: 20px;
+  padding: 10px;
+  color: #000;
+  background-color: #a682ff;
+  border: none;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: #7957d1;
+}
+
+.clear {
+  position: absolute;
+  left: 340px;
+  top: 170px;
+}
