@@ -1,0 +1,22 @@
+.game-info {
+  color: #e9e3e3;
+  /* position: absolute;
+  left: 340px;
+  top: 20px; */
+  display: flex;
+  flex-direction: column;
+}
+
+.score {
+  margin-top: 20px;
+  display: inline-block;
+}
+.score:first-of-type {
+  margin-top: 0;
+}
+
+@media (max-width: 410px) {
+  .score {
+    font-size: 16px;
+  }
+}
